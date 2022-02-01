@@ -39,32 +39,32 @@ body {
   /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
-  padding: 24px;
-}
-
-.main__info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 0 10%;
+  padding: 16px;
+  row-gap: 16px;
 }
 
 .main__img {
   border-radius: 10px;
 }
 
+.main__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 24px;
+  text-align: center;
+}
+
 .main__title {
-  font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  text-align: center;
   color: var(--dark-blue);
 }
 
 .main__description {
-  text-align: center;
   letter-spacing: 0.1875px;
+  line-height: 19px;
   color: var(--grayish-blue);
 }
 
