@@ -53,18 +53,21 @@ body {
   justify-content: space-evenly;
   padding: 0 24px;
   text-align: center;
+  row-gap: 24px;
 }
 
 .main__title {
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
+  margin: 0;
   color: var(--dark-blue);
 }
 
 .main__description {
   letter-spacing: 0.1875px;
   line-height: 19px;
+  margin: 0;
   color: var(--grayish-blue);
 }
 
